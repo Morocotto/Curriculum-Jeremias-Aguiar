@@ -1,37 +1,37 @@
+/*Quitando el margen de formal global en la pagina*/
 * {
     margin: 0;
 }
 
-body {
-    background-color: #7F8C8D;
-}
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#imagen {
-    display: block;
-    margin: 0 auto;
-}
-
-.contenedor {
+/*Agregando estilo, efecto y color a la clase encabezado*/
+#encabezado{
     text-align: center;
+    background-color: #24352B;
     color: whitesmoke;
+    box-shadow: 0px 8px 15px black;
 }
 
-h1 {
-    background-color: brown;
-    color: whitesmoke;
-    padding: 2rem 3em;
+/*Agregando color dorado a ciertos titulos con la clase titulo-dorado*/
+.titulo-dorado {
+    color: darkgoldenrod;
 }
 
-.contenido {
-    background-color: #E2E8F0;
-    color: #2F5233;
+/*Agregando fondo, tamaño de fuente, padding a la clase fondo-div junto al los h5 dentro de el*/
+.fondo-div h5 {
+    background: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
 }
 
-.contenido-2 {
-    background-color: #ECE9E1;
-    color: #2F5233;
+/*Agregando fuente y tamaño a los parrafos y listat*/
+p,ul,li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*Dando color y tamaño a los hr*/
+hr {
+    border: none;
+    height: 2px;
+    background-color: darkgoldenrod;
 }
